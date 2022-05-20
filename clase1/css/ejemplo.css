@@ -1,0 +1,18 @@
+p{
+    background-color: #97fbea;
+}
+
+#destacado{
+    width: 500px;
+    margin: auto;
+}
+
+.boton{
+    text-decoration: none;
+    margin: 12px;
+    padding: 6px 16px;
+    color: #fff;
+    background-color: #5c9868;
+    border-radius: 8px;
+
+}
