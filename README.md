@@ -4,7 +4,7 @@
 
 # Maquetación web con HTML 5 + CSS
 > Curso de Maquetado Web |   
-> Viernes 18hs a 20hs (Arg) |  
+> Miércoles y Viernes 18hs a 20hs (Arg) |  
 > Código: 58703 |  
 > sensei: Marcos Pinardi |
 
