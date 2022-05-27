@@ -1,0 +1,26 @@
+/* selector universal: reseteos */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* para evitar el incremento resultado de padding */
+    box-sizing: border-box;
+}
+body{
+    background-color: #132227;
+}
+
+/* agrupamiento: se agrupa con la "," (coma)   */
+#verde, #naranja, #celeste {
+    width: 300px;
+    height: 100px;
+}
+#verde{
+    background-color: #9af5bf;
+}
+#naranja{
+    background-color: #f5da9a;
+    padding: 25px;
+}
+#celeste{
+    background-color: #9af3f5;
+}

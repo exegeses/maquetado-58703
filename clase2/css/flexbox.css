@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+}
+main{
+    background-color: #d9d9d9;
+    height: 450px;
+
+    width: 750px;
+    margin: auto; /* centrar una caja */
+
+    /* Flexbox */
+    display: flex; /* ubica cajas contenidas una al lado de la otra */
+
+    /* alineación horazontal */
+    /* justify-content: start; /* predeterminado del lado izquierdo */
+    /* justify-content: end; /* del lado derecho */
+    /* justify-content: center; /* al centro */
+
+    /* espacios entre las cajas */
+    justify-content: space-between;
+
+    /* una para centrar en vertical */
+    align-items: center;
+}
+#izquierda, #derecha{
+    width: 250px;
+    height: 250px;
+}
+#izquierda{
+    background-color: #ae5be6;
+}
+#derecha{
+    background-color: #e6e65b;
+}
