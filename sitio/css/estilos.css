@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    color: #707070;
+}
+#gradiente{
+    background: rgb(215,143,183);
+    background: linear-gradient(180deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+}
+    header{
+        width: 1100px;
+        height: 100px;
+        margin: auto; /* centrar una caja */
+
+        display: flex;
+        justify-content: space-between; /* separar elementos */
+
+        align-items: center;
+    }
+        header a{
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        header a img{
+            width: 56px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        header nav a{
+            padding: 14px;
+        }
+
+
+/* MAIN */
+main{
+    min-height: 600px;
+}
+/* FOOTER */
+#divFooter{
+    background-color: #262626;
+}
+footer{
+    height: 150px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    footer a{
+        text-decoration: none;
+        color: #fff;
+    }
+    /* logo en el footer */
+    #logoFooter{
+        width: 32px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    footer nav a img{
+        width: 20px;
+        margin: 8px;
+    }
