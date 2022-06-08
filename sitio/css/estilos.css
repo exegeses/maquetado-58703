@@ -43,12 +43,76 @@ body{
     #gradiente h1{
         width: 1100px;
         margin: auto;
+        color: white;
+        /*padding-top: 2em;
+        text-indent:2.5em;*/
+        padding: 40px 0 0 70px;
+        font-size: 30px;
+        /*margin-left: 280px;*/
     }
 
 /* MAIN */
 main{
     min-height: 600px;
+    padding-bottom: 88px;
 }
+
+    /* sección nosotros */
+    /* sección nosotros */
+    #nosotros{
+        width: 1100px;
+        margin: auto;
+
+        display: flex;
+        flex-wrap: wrap; /* respeta los anchos y hace el corte de contenido */
+        justify-content: space-between;
+        margin-top: 70px;
+        
+    }
+    #nosotros img{
+        width: 245px;
+    }
+
+    /* sección Features */
+    /* sección Features */
+    #nuestraApp{
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 100px;
+    }
+    #nuestraApp article{
+        width: 572px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 16px;
+    }
+    #nuestraApp p{
+        line-height: 24px;
+    }
+
+    #features{
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-between;
+    }
+    #features article{
+        width: 326px;
+        margin-top: 42px;
+    }
+
+    #features h2 img{
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
 /* FOOTER */
 #divFooter{
     background-color: #262626;
