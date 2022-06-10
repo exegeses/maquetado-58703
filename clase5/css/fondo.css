@@ -1,0 +1,14 @@
+main{
+    width: 960px;
+    margin: auto;
+    height: 560px;
+
+    background-image: url(../imgs/faro.jpg);
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+h1, p{
+    width: 400px;
+}
