@@ -12,7 +12,7 @@ body{
 }
 #gradiente{
     background: rgb(215,143,183);
-    background: linear-gradient(180deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+    background: linear-gradient(90deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
     padding-bottom: 50px;
 }
     header{
@@ -49,6 +49,33 @@ body{
         padding: 40px 0 0 70px;
         font-size: 30px;
         /*margin-left: 280px;*/
+    }
+
+    #heroIndex{
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    #heroIndex article{
+        width: 630px;
+    }
+    #heroIndex img{
+        margin-left: 96px;
+    }
+    #heroIndex h1{
+        margin-bottom: 24px;
+        padding: 0px;
+    }
+    #heroIndex p{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 64px;
+    }
+    #heroIndex a{
+        text-decoration: none;
+        color: #fff;
     }
 
 /* MAIN */
