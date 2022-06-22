@@ -96,11 +96,33 @@ body{
         font-size: 24px;
     }
 
+
 /* MAIN */
 main{
     min-height: 600px;
     padding-bottom: 88px;
 }
+
+    /* sección index */
+    /* sección index */
+    #cajasIndex{
+        width: 1100px;
+        /*margin: auto;*/
+        margin: 94px auto 0px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+        #cajasIndex article{
+            width: 280px;
+            text-align: center;
+        }
+
+        #cajasIndex img{
+            width: 72px;
+        }
+        #cajasIndex h2{
+            margin: 28px 0px;
+        }
 
     /* sección nosotros */
     /* sección nosotros */
