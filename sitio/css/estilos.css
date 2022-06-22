@@ -180,6 +180,30 @@ main{
         margin-right: 8px;
     }
 
+    /* sección compras */
+    /* sección compras */
+    #planes{
+        width: 1100px;
+        margin: 40px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #planes article{
+        padding: 32px 0;
+        width: 326px;
+        text-align: center;
+        box-shadow: 0px 0px 10px #e7e7e7; /* x y blur color */
+        border-radius: 12px;
+    }
+    .precio{
+        display: block;
+        background-color: #f8f8f8;
+    }
+    #planes ul{
+        list-style-type: none;/* quitar el bullet */
+    }
+
 /* FOOTER */
 #divFooter{
     background-color: #262626;
