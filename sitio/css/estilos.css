@@ -76,7 +76,20 @@ body{
     #heroIndex a{
         text-decoration: none;
         color: #fff;
+        border: 1px solid #fff;
+        padding: 16px 40px;
+
+        display: inline-block;
+        width: 200px;
+
+        border-radius: 40px;
+        transition: .3s;
     }
+    #heroIndex a:hover{
+        background-color: #fff;
+        color: #D78FB7;
+    }
+
 
 /* MAIN */
 main{

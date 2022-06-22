@@ -1,0 +1,28 @@
+#primero a{
+    background-color: #ff9f9f;
+    padding: 12px 52px; /* agrandamos area de click */
+    border-radius: 24px; /* border redondeados */
+
+    /* atributos de texto */
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    /* demora */
+    transition: .300ms;
+}
+#primero a:hover{
+    background-color: #ff7f7f;
+}
+
+#segundo a{
+    background-color: #76cc56;
+    padding: 12px 52px;
+
+    text-decoration: none;
+    color: #fff;
+}
+#segundo a img{
+    width: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
