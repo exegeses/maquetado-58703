@@ -73,15 +73,18 @@ body{
         font-weight: 300;
         margin-bottom: 64px;
     }
+    #heroIndex div{
+        display: flex;
+        justify-content: center;
+    }
     #heroIndex a{
         text-decoration: none;
         color: #fff;
         border: 1px solid #fff;
         padding: 16px 40px;
-
+        margin: 0 30px;
         display: inline-block;
         width: 200px;
-
         border-radius: 40px;
         transition: .3s;
     }
@@ -89,7 +92,9 @@ body{
         background-color: #fff;
         color: #D78FB7;
     }
-
+    .fa-apple{
+        font-size: 24px;
+    }
 
 /* MAIN */
 main{
