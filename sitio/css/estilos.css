@@ -199,10 +199,54 @@ main{
     .precio{
         display: block;
         background-color: #f8f8f8;
+        padding: 5px;
+    }
+    #precioDestacado{
+        display: block;
+        background: rgb(215,143,183);
+        background: linear-gradient(90deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+        padding: 5px;
+        color: #ffffff;
+    }
+    .cifra{
+        font-size: 32px;
+        font-weight: 600;
     }
     #planes ul{
         list-style-type: none;/* quitar el bullet */
+        padding: 16px;
     }
+    #planes li{
+        margin: 16px 0px;
+        /* line-height: 32px; */
+    }
+    #planes a{
+        text-decoration: none;
+        color: rgb(99, 99, 99);
+        border: 1px solid rgb(99, 99, 99);
+        padding: 5px 35px;
+        border-radius: 20px;
+        display: inline-block;
+        margin: 20px;
+        transition: .3s;
+    }
+    #planes a:hover{
+        background-color: #262626;
+        color: #ffffff;
+    }
+
+    #destacado{
+        background: rgb(215,143,183);
+        background: linear-gradient(90deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+        color: #ffffff !important; /* hack */
+        border-color: rgb(215,143,183) !important;
+        /* border-image: linear-gradient(red, blue) 2 !important;*/
+        transition: .3s;
+    }
+    #destacado:hover {
+        background: linear-gradient(90deg, rgba(201,185,241,1) 0%, rgba(215,143,183,1) 100%);
+    }
+
 
 /* FOOTER */
 #divFooter{

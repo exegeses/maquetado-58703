@@ -1,0 +1,18 @@
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    width: 750px;
+    margin: 30px auto;
+}
+
+nav, p{
+    background-color: #c8c8c8;
+}
+
+a{
+    background-color: #9af5bf;
+    padding: 12px 32px;
+    display: inline-block;
+    text-decoration: none;
+    color: #131a13;
+}

@@ -1,0 +1,12 @@
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+}
+main{
+    width: 550px;
+    margin: auto;
+}
+    p{
+        margin: 32px 0px;
+        line-height: 32px;
+    }
