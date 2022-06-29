@@ -252,7 +252,63 @@ main{
         background: linear-gradient(90deg, rgba(201,185,241,1) 0%, rgba(215,143,183,1) 100%);
     }
 
+/* sección contactos */
+/* sección contactos */
+    #mainContacto{
+        background-image: url(../imgs/bg-contacto.jpg);
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 0px;
+    }  
+    #contacto{
+        width: 1000px;
+        margin: auto;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 48px;
+        border-radius: 16px;
+    }
+    #contacto form{
+        width: 550px;
+    }
+    input, textarea, button{
+        width: 100%;
+        padding: 16px;
+        background-color: #F4F4F4;
+        border-radius: 8px;
+        border: none;
+        margin: 16px;
+    }
+    input::placeholder{
+        color: #707070;
+        font-weight: 300;
+    }
+    textarea{
+        height: 152px;
+        font-family: Raleway, sans-serif;
+        resize: none;
+    }
+    button{
+        background-color: #444;
+        color: #fff;
+    }
 
+    #contacto article{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        background-color: #F4F4F4;
+        margin: 16px;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #contacto article img{
+        width: 72px;
+    }
+
+    
 /* FOOTER */
 #divFooter{
     background-color: #262626;
