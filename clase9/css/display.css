@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+}
+main{
+    background-color: #ccc;
+    width: 900px;
+    margin: auto;
+    padding: 32px;
+}
+#linea, #bloque, #lineaBloque{
+    width: 600px;
+    margin: 32px auto;
+    background-color: #fff;
+    padding: 32px;
+}
+#linea a{
+    /* son de línea, no aceptan ancho ni altura */
+    width: 200px;
+    height: 50px;
+    background-color: #9af3f5;
+}
+#bloque p{
+    /* los de bloque consum,en TODO el ancho del contenedor */
+    background-color: #bbf8d5;
+    /* aceptan ancho y altura */
+    width: 200px;
+    height: 50px;
+}
+#lineaBloque a{
+    display: inline-block;
+    background-color: #9af3f5;
+    width: 130px;
+    height: 50px;
+}
